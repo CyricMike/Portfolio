@@ -1,0 +1,40 @@
+{
+    "roots": {
+        "html" : {
+            "name": "HTML5",
+            "info": "HTML5 empowers me to build captivating web experiences with content structure, visual layouts, multimedia integration, and interactivity. It's versatile, responsive, and creates modern, user-friendly websites."
+        },
+        "css" : {
+            "name": "CSS",
+            "info": "CSS empowers me to elevate website design with captivating visual styles, seamless responsiveness, and polished aesthetics. It allows me to transform ordinary webpages into extraordinary experiences that leave a lasting impression.st"
+        },
+        "js" : {
+            "name": "JavaScript",
+            "info": "JavaScript empowers me to create captivating web experiences with interactivity, animations, and robust functionality."
+        },
+        "git" : {
+            "name": "Git",
+            "info": "Git empowers me by making it easy to track my changes, work on projects collaboratively, and manage code effectively. With Git, I can work offline, collaborate seamlessly, and easily revert changes if needed. It simplifies version control, enhances collaboration, and improves project organization."
+        },
+        "vue" : {
+            "name": "Vue",
+            "info": "Vue.js empowers me to build impressive web applications with reusable components, efficient data handling, and seamless user experiences."
+        },
+        "ts" : {
+            "name": "TypeScript",
+            "info": "TypeScript empowers me to create captivating web experiences with its static typing, seamless JavaScript integration, and tools that catch errors early."
+        },
+        "sass" : {
+            "name": "Sass",
+            "info": "Sass empowers me by making CSS coding easier and more efficient. It offers shortcuts like variables and mixins to reduce repetition, helping create cleaner and more organized stylesheets. With Sass, I write CSS faster and maintain it more effectively, saving time and effort."
+        },
+        "laravel" : {
+            "name": "Laravel",
+            "info": "Laravel empower me with its clean syntax, modular structure, and built-in security. Its tools like Eloquent for database tasks and Blade for templating simplify coding. The Artisan command-line interface automates routine tasks, while the active community provides additional resources."
+        },
+        "bootstrap" : {
+            "name": "Bootstrap",
+            "info": "Bootstrap empowers me with a toolbox full of ready-to-use components and styles for building attractive and responsive websites. It saves my time by providing pre-designed elements and a grid system for easy layout creation."
+        }
+    }
+}

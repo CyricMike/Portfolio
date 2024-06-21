@@ -1,0 +1,38 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+
+    .info-layout{
+        display: flex;
+        flex-direction: row;
+        
+        .navigation{
+            width: 30%;
+        }
+        .main-form{ 
+            border-radius: 20px;
+        }
+    }
+}
+
+.border-layout{
+    padding-bottom: 5%;
+
+    h1{
+        letter-spacing: 0.1em;
+    }
+
+    .border-form {
+        height: 5px;
+        width: 10%; /* Set the width to half of the container */
+        margin: 0 ; /* Center the line horizontally */
+        background-color: #ff9500;
+        border-radius: 4px;
+        margin-bottom: 2%;
+    }
+}
+
+
+.space-bottom{
+    padding-bottom: 20% !important;
+}

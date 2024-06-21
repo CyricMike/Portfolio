@@ -1,0 +1,10 @@
+{   
+"roots":{ 
+        "menus":[
+            {"name":"Resume", "link":"/Resume"},
+            {"name":"Projects", "link":"/Projects"},
+            {"name":"Experience", "link":"/Experience"},
+            {"name":"About", "link":"/"}
+        ]
+    }
+}

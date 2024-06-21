@@ -1,0 +1,58 @@
+{
+    "roots": {
+        "itam": {
+            "logo": "ITAM",
+            "companyName": "IT Americano",
+            "hiredDate": "June 2023 - Present",
+            "address": "Makati City, Metro Manila",
+            "position": "Mid Frontend Developer",
+            "job": [
+                "Specialized in maintaining and enhancing live game casino applications, with a focus on bug fixing and user experience improvements.",
+                "Proficient in implementing new features to enhance gameplay and engagement.",
+                "Expertise in Vue.js and TypeScript for web applications and Laya Air IDE.",
+                "Successfully address translation challenges to ensure accessibility for a diverse user base.",
+                "Dedication and skills contribute to the smooth operation and continued success of live game projects in the gaming industry."
+            ],
+            "languages": [
+                "HTML5",
+                "CSS",
+                "JavaScript",
+                "TypeScript",
+                "Vue",
+                "Laya Air",
+                "Jira",
+                "Gitlab"
+            ]
+        },
+        
+        "hrd": {
+            "logo": "HRD",
+            "companyName": "HRD Singapore PTE., LTD",
+            "hiredDate": "October 2021 - June 2023",
+            "address": "General Trias Cavite",
+            "position": "Web Developer",
+            "job": [
+                "Create web base system with focuse on company needs.",
+                "Use HTML5, CSS, JavaScript, Vue, PHP, Laravel Node JS and SQL to develop web application and app solution.",
+                "Developed efficient and maintianable web application according to business objectives and needs of clients.",
+                "Reviewed code, debugged problems and corrected issues to improve performance.",
+                "Contibutes ideas and suggestions in team meetings and delivered updates on deadlines, designs and enhancements.",
+                "Designed intuitive graphical user interface to improve user experience.",
+                "Developed mobile web design.",
+                "Database management.",
+                "Troubleshooting and bug fixing."
+            ],
+            "languages": [
+                "HTML5",
+                "CSS",
+                "JavaScript",
+                "PHP",
+                "Laravel",
+                "XPA",
+                "Vue",
+                "Gitlab",
+                "Node JS"
+            ]
+        }
+    }
+}

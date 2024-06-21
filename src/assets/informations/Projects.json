@@ -1,0 +1,44 @@
+{
+    "roots": {
+        "og": {
+            "logo": "OG",
+            "systemName": "Oriental Games",
+            "projectDate": "June 2023",
+            "systemKind": "Web Application",
+            "info": "Multiple live casino game in browser built with game engine"
+        },
+        
+        "ims": {
+            "logo": "IMS",
+            "systemName": "Inventory Management System",
+            "projectDate": "January 2022",
+            "systemKind": "Web Application",
+            "info": "This system is use by the company to track, sort and relaese all of the material needed by the company."
+        },
+        
+        "ksk": {
+            "logo": "KSK",
+            "systemName": "KSK Email Sending and Approving",
+            "projectDate": "November 2021",
+            "systemKind": "Web Application",
+            "info": "This system is use to send a job order to japan and approving the job order."
+        },
+
+        "cws": {
+            "logo": "CWS",
+            "systemName": "Copier and Worklog System",
+            "projectDate": "July 2022",
+            "systemKind": "Web Application",
+            "info": "This system is use by the company technician to track copier machine performance."
+        },
+
+
+        "vims": {
+            "logo": "VIMS",
+            "systemName": "Vehicle Inventory and Management System",
+            "projectDate": "May 2023",
+            "systemKind": "Web Application",
+            "info": "Mock system to be use by LGU to track and monitor the expenses and maintenance of Vehicles use by the LGU"
+        }
+    }
+}
