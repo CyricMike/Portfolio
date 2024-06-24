@@ -46,7 +46,7 @@ const closeDialog = () => emit('drawerclose');
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
 function getImages(name) {
-    return (`src/assets/Logos/Projects/${name}.png`)
+    return (`../../../public/Images/Projects/${name}.png`)
 }
 </script>
 

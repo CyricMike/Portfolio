@@ -3,11 +3,13 @@
         <div :class="['container', smallScreen && 'is-small']">
             <div 
                 class="column"
-                v-for="detail in details"
+                v-for="detail in Techs"
                 :key="detail"
             >
-                <img class="image"
-                    :src="getImages(detail.name)"/>
+                <img 
+                    class="image"
+                    :src="getImages(detail.name)"
+                />
                 <h2>{{ detail.name }}</h2>
                 <p>{{ detail.info }}</p>
             </div>
@@ -16,16 +18,13 @@
 </template>
 
 <script setup>
-import Tech from '@/assets/informations/Technologies.json';
 import { useMatchMedia } from '@/functions/screenSize'
-
 const smallScreen =  useMatchMedia('(max-width: 960px)');
-const details = Tech.roots;
 
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
-function getImages(name) {
-    return (`src/assets/Logos/${name}.png`)
+const getImages = (name) => {
+    return (`../../../public/Images/Technologies/${name}.png`)
 }
 </script>
 

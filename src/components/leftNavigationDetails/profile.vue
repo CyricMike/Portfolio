@@ -4,7 +4,7 @@
             <v-img
                 max-height="200"
                 cover
-                src="@/assets/Logos/background.jpg"
+                src="@/assets/Images/background.jpg"
             >
             <v-avatar
                 class="profile-picture"
@@ -12,7 +12,7 @@
                 size="110"
                 rounded="1"
             >
-                <v-img cover src="@/assets/Logos/2x2 picture.jpg"></v-img>
+                <v-img cover src="@/assets/Images/2x2 picture.jpg"></v-img>
             </v-avatar>
             </v-img>
         </div>

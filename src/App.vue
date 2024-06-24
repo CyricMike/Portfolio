@@ -19,13 +19,14 @@ import leftNavigation from './components/mainComponents/leftNavigation.vue';
 import topNavigation from './components/mainComponents/topNavigation.vue';
 import footerTabs from './components/mainComponents/footer.vue';
 import mainTab from './components/mainComponents/main.vue';
+
 import { useMatchMedia } from '@/functions/screenSize';
 import { onMounted, ref, watch } from 'vue';
 
 const smallScreen =  useMatchMedia('(max-width: 1250px)');
 const drawer = ref(true);
-let sidebar = document.getElementsByClassName('sidebar')[0];
-let sidebar_content = document.getElementsByClassName('content-wrapper')[0];
+// let sidebar = document.getElementsByClassName('sidebar')[0];
+// let sidebar_content = document.getElementsByClassName('content-wrapper')[0];
 onMounted(
   () => {
     toogleScreenSize()

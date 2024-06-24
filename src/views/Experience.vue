@@ -47,7 +47,7 @@ const experiences =  experience.roots
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
 function getImages(name) {
-    return (`src/assets/Logos/${name}.png`)
+    return (`../../public/Images/Experience/${name}.png`)
 }
 </script>
 

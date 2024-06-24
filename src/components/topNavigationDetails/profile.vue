@@ -3,7 +3,7 @@
         <v-img
             max-height="250"
             cover
-            src="@/assets/Logos/background.jpg"
+            src="@/assets/Images/background.jpg"
         >
             <v-avatar
                 :class="['profile-picture' , smallScreen && 'small-profile']"
@@ -11,7 +11,7 @@
                 :size="smallScreen ? '120' : '175'"
                 rounded="1"
             >
-                <v-img cover src="@/assets/Logos/2x2 picture.jpg"></v-img>
+                <v-img cover src="@/assets/Images/2x2 picture.jpg"></v-img>
             </v-avatar>
             <div :class="['name-info' , smallScreen && 'small-info']">
                 <span id="name">Cyric Mike Periña</span>

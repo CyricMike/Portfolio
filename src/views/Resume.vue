@@ -35,7 +35,7 @@ const images = [
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
 function getImages(name) {
-    return (`src/assets/Logos/Resume/${name}.jpg`)
+    return (`../../public/Images/Resume/${name}.jpg`)
 }
 </script>
 

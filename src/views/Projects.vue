@@ -7,7 +7,7 @@
         
         <div :class="['project-layout' , smallScreen && 'is-small' ]">
             <v-card
-                v-for="project in projects" 
+                v-for="project in Projects" 
                 :key="project"
                 max-width="600"
                 class="project-info"
@@ -54,12 +54,10 @@
 
 <script setup>
 import dialogBox from '@/components/projectDetails/dialogBox.vue'
-import ProjectInfo from '@/assets/informations/Projects'
 import { useMatchMedia } from '@/functions/screenSize';
 import { ref } from 'vue';
 
 const smallScreen =  useMatchMedia('(max-width: 600px)');
-const projects = ProjectInfo.roots;
 const drawer = ref(false);
 const infos = {};
 
@@ -67,7 +65,7 @@ const infos = {};
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
 function getImages(name) {
-    return (`src/assets/Logos/Projects/${name}.png`)
+    return (`../../public/Images/Projects/${name}.png`)
 }
 
 function toogleDialog(params) {

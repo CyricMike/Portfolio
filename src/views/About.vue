@@ -4,9 +4,9 @@
             <h1>About</h1>
             <div class="border-form"></div>
             <p>
-                Highly skilled Software Developer with 3+ years of experience in the IT industry. 
+                Highly skilled software developer with 3+ years of experience in the IT industry. 
                 Proficient in developing scalable web applications and providing technical support. 
-                Seeking a challenging role that utilizes my skills and allows for professional growth.
+                I am seeking a challenging role that utilizes my skills and allows for professional growth.
             </p>
         </div>
         
@@ -17,7 +17,7 @@
             <div class="educ-details">
                 <img 
                     class="image"
-                    src="../assets/Logos/SSC.png"/>
+                    src="../assets/Images/SSC.png"/>
 
                 <div id="info">
                     <span>2015-2019</span>

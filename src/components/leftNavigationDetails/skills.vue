@@ -39,7 +39,7 @@ const imagesDetails = [
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
 function getImages(name) {
-    return (`src/assets/Logos/${name}.png`)
+    return (`../../../public/Images/Technologies/${name}.png`)
 }
 </script>
 

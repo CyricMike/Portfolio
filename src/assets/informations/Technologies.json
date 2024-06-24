@@ -6,7 +6,7 @@
         },
         "css" : {
             "name": "CSS",
-            "info": "CSS empowers me to elevate website design with captivating visual styles, seamless responsiveness, and polished aesthetics. It allows me to transform ordinary webpages into extraordinary experiences that leave a lasting impression.st"
+            "info": "CSS empowers me to elevate website design with captivating visual styles, seamless responsiveness, and polished aesthetics. It allows me to transform ordinary webpages into extraordinary experiences that leave a lasting impressions"
         },
         "js" : {
             "name": "JavaScript",
@@ -18,23 +18,23 @@
         },
         "vue" : {
             "name": "Vue",
-            "info": "Vue.js empowers me to build impressive web applications with reusable components, efficient data handling, and seamless user experiences."
+            "info": "Vue.js empowers me to build impressive web applications with reusable components, efficient data handling and seamless user experiences."
         },
         "ts" : {
             "name": "TypeScript",
-            "info": "TypeScript empowers me to create captivating web experiences with its static typing, seamless JavaScript integration, and tools that catch errors early."
+            "info": "TypeScript empowers me to create captivating web experiences with its static typing, seamless JavaScript integration and tools that catch errors early."
         },
         "sass" : {
             "name": "Sass",
-            "info": "Sass empowers me by making CSS coding easier and more efficient. It offers shortcuts like variables and mixins to reduce repetition, helping create cleaner and more organized stylesheets. With Sass, I write CSS faster and maintain it more effectively, saving time and effort."
+            "info": "Sass empowers me by making CSS coding easier and more efficient. It offers shortcuts like variables and mixins to reduce repetition, helping create cleaner and more organized stylesheets. With Sass, I can write CSS faster and maintain it more effectively, saving time and effort."
         },
         "laravel" : {
             "name": "Laravel",
-            "info": "Laravel empower me with its clean syntax, modular structure, and built-in security. Its tools like Eloquent for database tasks and Blade for templating simplify coding. The Artisan command-line interface automates routine tasks, while the active community provides additional resources."
+            "info": "Laravel empowersame with its clean syntax, modular structure, and built-in security. Its tools, like Eloquent for database tasks and Blade for templating, simplify coding. The Artisan command-line interface automates routine tasks, while the active community provides additional resources."
         },
         "bootstrap" : {
             "name": "Bootstrap",
-            "info": "Bootstrap empowers me with a toolbox full of ready-to-use components and styles for building attractive and responsive websites. It saves my time by providing pre-designed elements and a grid system for easy layout creation."
+            "info": "Bootstrap empowers me with a toolbox full of ready-to-use components and styles for building attractive and responsive websites. It saves me time by providing pre-designed elements and a grid system for easy layout creation."
         }
     }
 }
