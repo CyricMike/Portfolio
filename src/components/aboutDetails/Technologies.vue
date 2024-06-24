@@ -7,7 +7,7 @@
                 :key="detail"
             >
                 <img class="image"
-                    :src="getImages(detail.name)"/>
+                    :src="`src/assets/Logos/${detial.name}.png`"/>
                 <h2>{{ detail.name }}</h2>
                 <p>{{ detail.info }}</p>
             </div>
