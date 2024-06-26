@@ -17,7 +17,7 @@
             <div class="educ-details">
                 <img 
                     class="image"
-                    src="../assets/Images/SSC.png"/>
+                    src="../assets/Images/Profile/SSC.png"/>
 
                 <div id="info">
                     <span>2015-2019</span>
@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import spinCube from './spinCube.vue';
+// import spinCube from './spinCube.vue';
 import Technologies from '@/components/aboutDetails/Technologies.vue'
 import { useMatchMedia } from '@/functions/screenSize';
 

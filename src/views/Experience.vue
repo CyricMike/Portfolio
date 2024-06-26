@@ -4,32 +4,29 @@
             <h1>Experience</h1>
             <div class="border-form"></div>
         </div>
-        <v-timeline  side="end">
+        <v-timeline side="end">
             <v-timeline-item v-for="exp in experiences" :key="exp">
-            <template v-slot:icon>
-                <v-avatar :image="getImages(exp.logo)"></v-avatar>
-            </template>
-            <div :class="['experience-form' , smallScreen && 'is-small']">
-                <h1 id="company">{{ exp.companyName }}</h1>
-                <span id="datehired">{{ exp.hiredDate }}</span>
-                <span id="address">{{ exp.address }}</span>
-                <span id="position">{{ exp.position }}</span>
+                <template v-slot:icon>
+                    <v-avatar :image="getImages(exp.logo)"></v-avatar>
+                </template>
+                <div :class="['experience-form' , smallScreen && 'is-small']">
+                    <h1 id="company">{{ exp.companyName }}</h1>
+                    <span id="datehired">{{ exp.hiredDate }}</span>
+                    <span id="address">{{ exp.address }}</span>
+                    <span id="position">{{ exp.position }}</span>
 
-                <div 
-                    v-for="job in exp.job" 
-                    :key="job"
-                >
-                    <li>{{ job }}</li>
+                    <div 
+                        v-for="job in exp.job" 
+                        :key="job"
+                    >
+                        <li>{{ job }}</li>
+                    </div>
                 </div>
-            </div>
-            <!-- <v-chip-group > -->
                 <v-chip 
                     class="chips"
                     v-for="lang in exp.languages" 
                     :key="lang"
                 >{{lang}}</v-chip>
-            <!-- </v-chip-group> -->
-
             </v-timeline-item>
         </v-timeline>
     </div>
@@ -37,8 +34,9 @@
 
 <script setup>
 import experience from '@/assets/informations/Experience.json'
-
 import { useMatchMedia } from '@/functions/screenSize';
+import { getImages } from '@/functions/loadImages'
+
 
 const smallScreen =  useMatchMedia('(max-width: 600px)');
 
@@ -46,9 +44,6 @@ const experiences =  experience.roots
 
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
-function getImages(name) {
-    return (`../../public/Images/Experience/${name}.png`)
-}
 </script>
 
 <style lang="scss" scoped>

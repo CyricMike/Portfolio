@@ -11,8 +11,7 @@
                 :key="project"
                 max-width="600"
                 class="project-info"
-                @click="toogleDialog(project)"
-                
+                @click="toogleDialog(project)"   
             >
                 <v-hover v-slot="{ isHovering, props }">
                     <v-img
@@ -56,17 +55,13 @@
 import dialogBox from '@/components/projectDetails/dialogBox.vue'
 import { useMatchMedia } from '@/functions/screenSize';
 import { ref } from 'vue';
+import { getImages } from '@/functions/loadImages';
 
 const smallScreen =  useMatchMedia('(max-width: 600px)');
 const drawer = ref(false);
 const infos = {};
 
-
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
-
-function getImages(name) {
-    return (`../../public/Images/Projects/${name}.png`)
-}
 
 function toogleDialog(params) {
     infos.value = params

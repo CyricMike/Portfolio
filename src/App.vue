@@ -25,8 +25,7 @@ import { onMounted, ref, watch } from 'vue';
 
 const smallScreen =  useMatchMedia('(max-width: 1250px)');
 const drawer = ref(true);
-// let sidebar = document.getElementsByClassName('sidebar')[0];
-// let sidebar_content = document.getElementsByClassName('content-wrapper')[0];
+
 onMounted(
   () => {
     toogleScreenSize()

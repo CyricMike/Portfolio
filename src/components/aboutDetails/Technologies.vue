@@ -19,13 +19,12 @@
 
 <script setup>
 import { useMatchMedia } from '@/functions/screenSize'
+import { getImages } from '@/functions/loadImages'
+
 const smallScreen =  useMatchMedia('(max-width: 960px)');
 
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
-const getImages = (name) => {
-    return (`../../../public/Images/Technologies/${name}.png`)
-}
 </script>
 
 <style lang="scss" scoped>

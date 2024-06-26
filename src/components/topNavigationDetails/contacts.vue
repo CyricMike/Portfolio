@@ -20,7 +20,6 @@
                 <span>+639155874426</span>
             </div>
         </div>
-
     </div>
 </template>
 

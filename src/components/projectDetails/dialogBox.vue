@@ -38,16 +38,13 @@
 </template>
 
 <script setup>
-
-const props = defineProps(['drawer' , 'infos' , 'smallScreen'])
+import { getImages } from '@/functions/loadImages';
+const props = defineProps(['drawer' , 'infos' , 'arrImages' , 'smallScreen'])
 const emit = defineEmits(['drawerclose'])
 const closeDialog = () => emit('drawerclose');
 
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
-function getImages(name) {
-    return (`../../../public/Images/Projects/${name}.png`)
-}
 </script>
 
 <style lang="scss" scoped>

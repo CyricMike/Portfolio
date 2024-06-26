@@ -7,36 +7,36 @@
         <div class="resume-layout">
             
             <div id="img-form" v-for="img in images" :key="img">
-                <img id="img" :src="getImages(img)" alt="resume">
+                <img id="img" :src="img" alt="resume">
             </div>
             
             <div id="download">
                 <a 
                     id="link"
                     target="_blank"
-                    href="https://drive.google.com/file/d/1nP1Tjrx7vrbv-jA0s8sATIgqbzBo12dK/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/1MB_twqWpKKGTeBz5wHd6cG8lrRUUQwhO/view?usp=drivesdk"
                 >Download</a>
             </div>
         </div>
-</div>
+    </div>
 </template>
 
 <script setup>
 import { useMatchMedia } from '@/functions/screenSize';
+import CoverLetter from '@/assets/Images/Resume/CoverLetter.jpg'
+import ResumeFirstPage from '@/assets/Images/Resume/ResumeFirstPage.jpg'
+import ResumeSecondPage from '@/assets/Images/Resume/ResumeSecondPage.jpg'
 
 const smallScreen =  useMatchMedia('(max-width: 700px)');
 
 const images = [
-    "CoverLetter",
-    "ResumeFirstPage",
-    "ResumeSecondPage"
+    CoverLetter,
+    ResumeFirstPage,
+    ResumeSecondPage,
 ]
 
 //++++++++++++++++++++++++++++ Methods ++++++++++++++++++++++++++++//
 
-function getImages(name) {
-    return (`../../public/Images/Resume/${name}.jpg`)
-}
 </script>
 
 <style lang="scss" scoped>

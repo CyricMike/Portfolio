@@ -4,7 +4,7 @@
             <v-img
                 max-height="200"
                 cover
-                src="@/assets/Images/background.jpg"
+                src="@/assets/Images/Profile/background.jpg"
             >
             <v-avatar
                 class="profile-picture"
@@ -12,16 +12,14 @@
                 size="110"
                 rounded="1"
             >
-                <v-img cover src="@/assets/Images/2x2 picture.jpg"></v-img>
+                <v-img cover src="@/assets/Images/Profile/2x2 picture.jpg"></v-img>
             </v-avatar>
             </v-img>
         </div>
 
         <div class="name-info">
-            <!-- <div > -->
                 <span id="name">Cyric Mike Periña</span>
                 <span id="position">Front-end Developer</span>
-            <!-- </div> -->
         </div>
     </div>
 </template>
